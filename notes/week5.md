@@ -47,3 +47,49 @@
 
 ### The Three-Schema Architecture
 ![Three-Schema Architecture](https://cdn.discordapp.com/attachments/287239433517006848/1013647320073654292/unknown.png)
+- **External Level**
+  - A number of external schemas or user views
+- **Conceptual Level** <- the topics that we are goning to learn
+  - describe the structure of the whole database for a community of users
+- **Interal Level**
+
+### Data Independence
+- **Logical Data Independence** : the capacity to change the conceptual schema without
+  having to change the external schemas and their associated application programs
+    - ความสามารถในการเปลี่ยนแปลง external level โดยที่ไม่ส่งผลกระทบต่อ conceptual level
+- **Physical Data Independence** : the capacity to change the internal schema without having to change the conceptual schema
+    - ความสามารถในการเปลี่ยนแปลง internal level โดยที่ไม่ส่งผลกระทบต่อ conceptual level
+
+### User-Friendly DBMS Interfaces
+- Menu-based
+- Forms-based
+- Graphics-based
+- Natural Language
+- and others e.g. speech, web browser with keyword search, parametic interfaces, interfaces for the DBA
+
+### A Physical Centralized Architecture
+![Physical Centralized architecture](https://cdn.discordapp.com/attachments/287239433517006848/1013650941720920064/unknown.png)
+
+### Two-Tier Client-Server Model
+![Client-Server](https://cdn.discordapp.com/attachments/287239433517006848/1013651609487687771/unknown.png)
+
+### Three-Tier Client-Server
+![Three-Tier](https://media.discordapp.net/attachments/287239433517006848/1013652659191939102/unknown.png)
+![Three-Tier Architecture](https://media.discordapp.net/attachments/287239433517006848/1013652906777509950/unknown.png)
+- common for web application
+- can enhance security
+  - database server only accessible via middle tier
+  - client cannot directly access database server
+
+### Classification of DBMSs
+- Based on the data model used
+  - Legacy
+    - Network, Hiearchical
+  - Currently Used
+    - Relational, Object-oriented, Object-relation
+  - Recent Technologies
+    - NOSQL, Native XML DBMS
+- Other classification
+  - Single-user vs Mutli-user
+  - Centralized vs Distributed
+- examples of free relational DBMS: MySQL, PostgreSQL, others
