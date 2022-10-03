@@ -72,10 +72,15 @@
 - ใช้ในการอ้างถึง tuple จากอีก tuple นึง
   - ***General rule*** : เลือก primary key ที่มีขนาดเล็กที่สุดจาก candidate keys แต่ก็ไม่เสมอไป!!
 
+### Relations=al Database Schema
+- คือ ชุดของ Relation (ตาราง) มารวมกัน
+
 ### Relation Database State
 - **relational database state DB** คือ set ของ relation state ที่ r แต่ละตัวจะอยู่ในข้อบังคับ
+  - โดยที่ข้อมูลของแต่ละ Relation จะต้อง valid
 
 ### Populated Databse state
 - แต่ละ relation จะมีค่า tuple ที่อยู่ใน current relation state
 - **relational database state** คือ union of all the individual relation states
+  - INSERT, DELETE, UPDATE(MODIFY)
 
