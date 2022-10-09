@@ -66,6 +66,8 @@
   3. **Cross-reference or relationship relation (3 relations) option**:
     - สร้าง relation (table) สำหรับของ relationship มาใช้ในการ cross-referencing
 
+![](https://media.discordapp.net/attachments/1014398974649708624/1028664649547268117/unknown.png?width=1440&height=442)
+
 ### Step 4: Mapping of Binary 1:N Relationship Types
 - ระบุให้แต่ละ relationship type R, ให้เป็น relation (table) S ที่ represent participating entity type at the **N-side**
 - นำ foreign key ของ relation T ที่เป็น relation ของด้าน 1-side มาใส่เป็น attr. เพิ่ม
@@ -80,3 +82,6 @@
 
 ### Step 7: Mapping of N-ary Relationship Types
 - for each **n-ary relationship types** R, where n > 2 -> **create a new relationship S to represent R**
+
+### A Correspondence between ER and Relational Model
+![](https://media.discordapp.net/attachments/1014398974649708624/1028665228751294595/unknown.png)

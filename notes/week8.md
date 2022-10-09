@@ -72,7 +72,7 @@
 - ใช้ในการอ้างถึง tuple จากอีก tuple นึง
   - ***General rule*** : เลือก primary key ที่มีขนาดเล็กที่สุดจาก candidate keys แต่ก็ไม่เสมอไป!!
 
-### Relations=al Database Schema
+### Relational Database Schema
 - คือ ชุดของ Relation (ตาราง) มารวมกัน
 
 ### Relation Database State
