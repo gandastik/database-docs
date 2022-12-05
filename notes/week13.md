@@ -34,9 +34,9 @@ X->A holds in R, เมื่อ X is a superkey of R**
 	- **X->Y** is a trivial functional dependency **if Y is a subset of X**
 - **nontrivial dependency** เกิดขึ้นเมื่อ **A->B holds true when B is not a subset of A**
 - **สรุปได้ว่า**
-	- Every 2NF realtion is in 1NF
-	- Every 3NF realtion is in 2NF
-	- Every BCNF realtion is in 3NF
+	- Every 2NF relation is in 1NF
+	- Every 3NF relation is in 2NF
+	- Every BCNF relation is in 3NF
 - BCNF is considered a **Stronger form of 3NF**
 - the goal is to have each realtion in BCNF (or 3NF)
 
@@ -51,7 +51,7 @@ X->A holds in R, เมื่อ X is a superkey of R**
 
 ### Test for checking non-additivity of Binary Relation Decomposition
 - F+ -> **Closure of F**
-- **Binary Decomposition** คือ การแบ่ง relation จาก 1 ให้กลายเป็น 2 raltion
+- **Binary Decomposition** คือ การแบ่ง relation จาก 1 ให้กลายเป็น 2 relations
 - **Propery NJB (non-additive join test for binary decomposition)** การทำ decomposition D = {R1, R2} of R มี **loseless join propery** (การ join แล้วไม่มีข้อมูลซ้ำ? เพิ่ม?)
 	- f.d. (R1 intersect R2) -> (R1 - R2) อยู่ใน F+ or
 	- f.d. (R1 intersect R2) -> (R2 - R1) อยู่ใน F+
@@ -61,7 +61,7 @@ X->A holds in R, เมื่อ X is a superkey of R**
 ### Multivalued Dependencies and Fourth Normal Form
 
 ![](https://media.discordapp.net/attachments/1014398974649708624/1036482241917886544/unknown.png?width=1423&height=684)
-- realtion EMP คือ **all-key relation** คือ attribute ทุกตัวเป็น key หมดเลย ทำให้ไม่มี f.d.'s เลย
+- relation EMP คือ **all-key relation** คือ attribute ทุกตัวเป็น key หมดเลย ทำให้ไม่มี f.d.'s เลย
 - ทำให้เกิด redundancy ขึ้นมาใน relation จึงทำให้เกิด **Multivalued Dependency (MVD)** ขึ้นมา
 - **MVD** คือ X ->-> Y ใน relation R เมื่อ X  และ Y คือ subset ของ R
 ![](https://media.discordapp.net/attachments/1014398974649708624/1036483386665091112/unknown.png)

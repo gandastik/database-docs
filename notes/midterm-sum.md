@@ -17,7 +17,7 @@
   - **Logical Data Independence**: Conceptual schema <-> External schema
   - **Physical Data Independence**: Physical schema <-> Conceptual schema
 16. **Centralized DBMS Architecture**: processing -> performed remotely on the computer system
-  - display information sent to the terminal via networks
+  - display information sent to the termi1nal via networks
 17. **Basic Client Server Architecture**: have specialized servers with specific functionalities
   - **Client** can access specific server by an appropriate interface
   - **Server** provide services to client machines
